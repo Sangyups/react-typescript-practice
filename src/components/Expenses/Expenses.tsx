@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import ExpenseItem from "./ExpenseItem";
-import Card from "../UI/Card";
-import "./Expenses.css";
-import { Item } from "../../App";
+import ExpenseItem from './ExpenseItem';
+import Card from '../UI/Card';
+import './Expenses.css';
+import { Item } from '../../App';
 
 type ItemProps = {
   items: Item[];

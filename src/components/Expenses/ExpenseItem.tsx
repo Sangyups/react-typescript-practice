@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import ExpenseDate from "./ExpenseDate";
-import Card from "../UI/Card";
-import "./ExpenseItem.css";
-import { Item } from "../../App";
+import ExpenseDate from './ExpenseDate';
+import Card from '../UI/Card';
+import './ExpenseItem.css';
+import { Item } from '../../App';
 
 type ItemProps = {
   item: Item;

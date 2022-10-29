@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import "./Card.css";
+import './Card.css';
 
 type CardProps = {
   className: string;
@@ -8,7 +8,7 @@ type CardProps = {
 };
 
 const Card = ({ className, children }: CardProps) => {
-  const classes = "card " + className;
+  const classes = 'card ' + className;
 
   return <div className={classes}>{children}</div>;
 };
