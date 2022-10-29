@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import ExpenseItem from './ExpenseItem';
 import Card from '../UI/Card';
 import './Expenses.css';
-import { Item } from '../../App';
+import { IExpense } from '../../App';
 
 type ItemProps = {
-  items: Item[];
+  items: IExpense[];
 };
 
 const Expenses = ({ items }: ItemProps) => {

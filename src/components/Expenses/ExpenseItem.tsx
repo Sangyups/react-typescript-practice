@@ -3,10 +3,10 @@ import React from 'react';
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
-import { Item } from '../../App';
+import { IExpense } from '../../App';
 
 type ItemProps = {
-  item: Item;
+  item: IExpense;
 };
 
 const ExpenseItem = ({ item }: ItemProps) => {
